@@ -1,0 +1,66 @@
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+
+    include "us(dvorak)"
+    include "level3(ralt_switch)"
+
+    name[Group1] = "Spanish Programmer Custom";
+
+    // Sin modificador, Shift, AltGr, Shift+AltGr
+
+    // Fila de símbolos
+    key <TLDE> { [ backslash,    bar,          masculine,       dead_abovering ] };
+    key <AE01> { [ exclam,       exclamdown,   1                                ] };
+    key <AE02> { [ bracketleft,  bracketright, 2                                ] };
+    key <AE03> { [ braceleft,    braceright,   3                                ] };
+    key <AE04> { [ parenleft,    parenright,   4                                ] };
+    key <AE05> { [ less,         greater,      5                                ] };
+    key <AE06> { [ equal,        plus,         6                                ] };
+    key <AE07> { [ asterisk,     slash,        7                                ] };
+    key <AE08> { [ ampersand,    at,           8                                ] };
+    key <AE09> { [ dollar,       EuroSign,     9                                ] };
+    key <AE10> { [ numbersign,   percent,      0                                ] };
+    key <AE11> { [ asciicircum,  U221A,        degree                           ] };
+    key <AE12> { [ grave,        asciitilde,   dead_acute                       ] };
+
+    // Fila superior
+    key <AD01> { [ period,       colon,        U2264,      U2026 ] }; // ≤ …
+    key <AD02> { [ comma,        semicolon,    U2265,      U00B7 ] }; // ≥ ·
+    key <AD03> { [ ntilde,       Ntilde,       U2229,      U2205 ] }; // ∩ ∅
+    key <AD04> { [ p,            P,            U222A,      U2207 ] }; // ∪ ∇
+    key <AD05> { [ y,            Y,            U2208,      U03C0 ] }; // ∈ π
+    key <AD06> { [ f,            F,            U2209,      U03A0 ] }; // ∉ Π
+    key <AD07> { [ g,            G,            U2192,      U03B3 ] }; // → γ
+    key <AD08> { [ c,            C,            U2190,      U0393 ] }; // ← Γ
+    key <AD09> { [ h,            H,            U2194,      U03B7 ] }; // ↔ η
+    key <AD10> { [ l,            L,            U03BB,      U039B ] }; // λ Λ
+    key <AD11> { [ question,     questiondown, U203D,      U2047 ] }; // ‽ ⁇
+    key <AD12> { [ minus,        underscore,   U2212,      U2014 ] }; // − —
+    key <BKSL> { [ bar,          dead_circumflex                                ] };
+
+    // Fila central
+    key <AC01> { [ a,            A,            U03B1,      U0391 ] }; // α Α
+    key <AC02> { [ o,            O,            numbersign, at    ] }; // # @
+    key <AC03> { [ e,            E,            EuroSign,   U0395 ] }; // € Ε
+    key <AC04> { [ u,            U,            U03BC,      U039C ] }; // μ Μ
+    key <AC05> { [ i,            I,            U221E,      bar   ] }; // ∞ |
+    key <AC06> { [ d,            D,            U03B4,      U0394 ] }; // δ Δ
+    key <AC07> { [ r,            R,            U221A,      U03C1 ] }; // √ ρ
+    key <AC08> { [ t,            T,            U03B8,      U0398 ] }; // θ Θ
+    key <AC09> { [ n,            N,            colon,      U2207 ] }; // : ∇
+    key <AC10> { [ s,            S,            semicolon,  U03A3 ] }; // ; Σ
+    key <AC11> { [ dead_acute,   dead_diaeresis, dead_grave, dead_tilde ] };
+
+    // Fila inferior
+    key <LSGT> { [ less,         greater,      U226A,      U226B ] }; // ≪ ≫
+    key <AB01> { [ quotedbl,     apostrophe,   grave,      U201C ] }; // ` “
+    key <AB02> { [ q,            Q,            questiondown, U2200 ] }; // ¿ ∀
+    key <AB03> { [ j,            J,            exclamdown, U2203 ] }; // ¡ ∃
+    key <AB04> { [ k,            K,            U00B1,      U03BA ] }; // ± κ
+    key <AB05> { [ x,            X,            U2213,      U2297 ] }; // ∓ ⊗
+    key <AB06> { [ b,            B,            U03B2,      U0392 ] }; // β Β
+    key <AB07> { [ m,            M,            emdash,     U2211 ] }; // — ∑
+    key <AB08> { [ w,            W,            U222B,      U03A9 ] }; // ∫ Ω
+    key <AB09> { [ v,            V,            guillemotleft, U039D ] }; // « Ν
+    key <AB10> { [ z,            Z,            guillemotright, U0396 ] }; // » Ζ
+};
