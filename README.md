@@ -1,8 +1,8 @@
 # Dvorak-para-programación-en-español
 
-Distribución de teclado personalizada para Ubuntu/Linux basada en un teclado físico ISO español/QWERTY, pensada para escribir en español y programar con más comodidad.
+Distribución de teclado personalizada para Linux basada en un teclado físico ISO español/QWERTY, pensada para escribir en español y programar con más comodidad.
 
-El objetivo es mantener una escritura cómoda en español, facilitar símbolos de programación y conservar los atajos más comunes por posición física QWERTY cuando se usa la distribución personalizada.
+El objetivo es mantener una escritura cómoda en español, facilitar símbolos de programación y conservar los atajos más comunes por posición física QWERTY cuando se usa la distribución personalizada. Incluye lenguaje matemático.
 
 ---
 
