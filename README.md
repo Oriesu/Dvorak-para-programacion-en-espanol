@@ -97,7 +97,7 @@ El Alt usado para atajos es el izquierdo.
 AltGr queda libre para escribir símbolos del layout.
 
 ## Instalación y uso
-Descargar archivos esprog y esprog.keyd.conf y subir en ese orden en el menú que aparecerá en la barra superior al usar
+Descargar archivos 'esprog' y 'esprog.keyd.conf' y subir en ese orden en el menú que aparecerá en la barra superior al usar
 ``````
 
 
